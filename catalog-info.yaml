@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-app
-  description: My App
+  name: hello-tap
+  description: Hello TAP
   tags:
     - java
     - spring
     - web
-    - test
+    - demo
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=my-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-tap'
 spec:
   type: service
   lifecycle: experimental
